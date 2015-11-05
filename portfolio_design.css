@@ -1,16 +1,15 @@
 body {
 	text-align: center;
 	background-color: #5f6a72;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
-h1 {
+h1, h3 {
 	color: #cc0033;
 }
 
-h3 {
-	color: #cc0033;
-}
+ 
 p  {
 	color: white;
 }
