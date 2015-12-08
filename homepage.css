@@ -1,0 +1,44 @@
+h1 {
+    font-size: 6em;
+    font-family: "Helvetica";
+    color: #FFA07A;
+    letter-spacing: -5px;
+    line-height: .7em;
+}
+.navbar-right { 
+    letter-spacing:3px;
+    font-size: 1.7em;
+
+}
+.navbar {
+    background-color: #ffffff;
+}
+
+.img-responsive{
+    height: 550px;
+    width: 900px;
+}
+
+ #contact { 
+font-size: 30px;
+font-family: "Helvetica";
+color: #FFA07A;
+}
+
+thead{ font-size: 3em;
+    font-family: "Helvetica";
+    color: #FFA07A;
+    letter-spacing: -1px;
+    line-height: .7em;}
+
+h2 { 
+    font-size: 3em;
+    font-family: "Helvetica";
+    color: #FFA07A;
+    letter-spacing: -1px;
+    line-height: .7em;
+}
+
+.well {
+    background-color: #ffffff;
+}

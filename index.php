@@ -1,1 +1,1 @@
-<?php require('home.html'); ?>
+<?php require('homepage.html'); ?>
