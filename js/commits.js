@@ -31,5 +31,7 @@ $(document).ready(function(){
                 .append(messageTd)
                 .append(dateTd);
         }
+         
+
     });
 });
