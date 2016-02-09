@@ -29,7 +29,7 @@ app.use(session({
 app.use(express.static("public"));
 app.use(express.static("views"));
 
-
+//routes 
 app.get('/', function(req,res){
     res.sendFile(process.cwd() + '/views/homepage.html');
 });
@@ -50,6 +50,7 @@ app.get('/rpsgame', function(req, res){
     res.sendFile(process.cwd() + '/views/rps.html');
 });
 
+//PORT listening
 app.listen(PORT, function(req,res){
     console.log('server is listening on port %s', PORT)
 });
