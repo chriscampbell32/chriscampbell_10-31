@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(document).on("click", "a", function(e){
+    $(document).on("click", "#lista", function(e){
         e.preventDefault();
 
         $.ajax({
