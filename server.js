@@ -9,19 +9,21 @@ var PORT = process.env.PORT || 8090;
 //middleware 
 
 function myLoggingMiddleware(req, res, next){
-    var url = request.url;
-    var method = request.method;
+    var url = req.url;
+    var method = req.method;
 
-    console.log("%s request at %s", url, method);
+    console.log("%s request at %s", method, url);
     next();
 }
 
 app.use(bodyParser.urlencoded({extended: false}));
+
 app.use(myLoggingMiddleware);
+
 app.use(session({
-    secret: 'my super secret',
+    secret: 'super secret',
     cookie: {maxAge: 60000},
-    saveUninitialiazed: true,
+    saveUninitialized: true,
     resave: false
 }));
 
